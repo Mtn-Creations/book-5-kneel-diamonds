@@ -5,7 +5,7 @@ const metals = getMetals()
 document.addEventListener(
     "change",
     (event) => {
-        if(event.target.name === "metal") {
+        if (event.target.name === "metal") {
             setMetal(parseInt(event.target.value))
         }
     }
