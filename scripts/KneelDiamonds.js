@@ -25,6 +25,7 @@ export const KneelDiamonds = () => {
             </section>
             <section class="choices__styles options">
                 <h2>Styles</h2>
+                ${JewelryStyles()}
             </section>
         </article>
 

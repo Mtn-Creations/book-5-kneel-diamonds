@@ -37,7 +37,7 @@ const database = {
 }
 
 export const getStyles = () => {
-    return database.sizes.map(style => ({...style}))
+    return database.styles.map(style => ({...style}))
 }
 
 export const getSizes = () => {
