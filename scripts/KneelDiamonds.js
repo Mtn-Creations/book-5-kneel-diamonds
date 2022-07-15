@@ -21,6 +21,7 @@ export const KneelDiamonds = () => {
             </section>
             <section class="choices__sizes options">
                 <h2>Sizes</h2>
+                ${DiamondSizes()}
             </section>
             <section class="choices__styles options">
                 <h2>Styles</h2>
