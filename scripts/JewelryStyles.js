@@ -5,6 +5,9 @@ const styles = getStyles()
 document.addEventListener(
     "change",
     (event) => {
+        if(event.target.name === "style") {
+            window.alert(`User chose ${event.target.value}`)
+        }
     }
 )
 
