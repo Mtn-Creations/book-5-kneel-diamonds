@@ -1,4 +1,7 @@
 /* You need to create the rest of styles for the layout shown */
+.choices {
+    display: flex;
+}
 
 .options {
     flex-basis: 24%;
