@@ -11,7 +11,7 @@ const buildOrderListItem = (order) => {
             return style.id === order.styleId
         }
     )
-    const foundSize = metals.find(
+    const foundSize = sizes.find(
         (size) => {
             return size.id === order.sizeId
         }
