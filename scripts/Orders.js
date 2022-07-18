@@ -1,8 +1,10 @@
 import { getOrders } from "./database.js"
 
 const buildOrderListItem = (order) => {
+    const dateStamp = new Date(order.timestamp)
+    
     return `<li>
-        Order #${order.id} was placed on ${order.timestamp}
+        Order #${order.id} was placed on ${dateStamp.getMonth() + "/" + dateStamp.getDay() + "/" + dateStamp.getFullYear()}
     </li>`
 }
 
